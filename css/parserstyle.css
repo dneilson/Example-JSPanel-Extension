@@ -1,0 +1,228 @@
+.jsPanel-content table.wrapped td,
+.mytables td,
+.jsPanel-content #issuetable td {
+    border: 1px solid !important;
+    padding: 5px 5px 0px 5px !important;
+}
+.jsPanel-content table.wrapped th {
+    text-align: center !important;
+}
+.jsPanel-content #issuetable tr {
+    background-color: transparent;
+}
+.jsPanel-content table.wrapped th,
+.mytables tr th,
+.jsPanel-content #issuetable tr th {
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: 1px solid !important;
+}
+.jsPanel-content table.wrapped * {
+    color: white !important;
+}
+.jsPanel-content table {
+    background-color: transparent !IMPORTANT;
+}
+img.confluence-content-image-border {
+    display: none !important;
+}
+.confluencecontent hr {
+    border: 0px !important;
+}
+#issuetable td > * {
+    background-color: transparent !important;
+}
+table.confluencecontent {
+    border-collapse: separate;
+    -webkit-border-horizontal-spacing: 2px;
+    -webkit-border-vertical-spacing: 2px;
+    margin: 5px !important;
+    border: 1px solid white;
+    width: -webkit-fill-available;
+    padding: 0;
+}
+td hr {
+    display: none !important;
+}
+h4.cannedresponseheaders:hover,
+div#verific .jsPanel-content > h3:hover,
+.confluencedocheaders:hover {
+    background-color: #00a0d2;
+}
+.confluencedocheaders {
+    background-color: #30c5f4;
+    border-color: #00B8F1;
+    font-weight: 600;
+    font-family: "proxima-nova", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    white-space: nowrap;
+    border-right: none;
+    border-left: none;
+    font-size: 14px;
+    line-height: 1.42857;
+    border-radius: 0px;
+    user-select: none;
+    width: 100%;
+    margin: 0px !important;
+    text-align: -webkit-center;
+    min-height: min-content !important;
+    outline: none;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 0;
+}
+img.confluence-embedded-image.confluence-thumbnail.confluence-external-resource, td.confluenceTd img {
+    max-width: 100px !important;
+    display: block !important;
+}
+div.table-wrap table.wrapped.relative-table.confluenceTable {
+    width: -webkit-fill-available !important;
+    margin: 5px !important;
+}
+td > p {
+    margin: 5px !important;
+}
+div.table-wrap table.wrapped.relative-table.confluenceTable td.confluenceTd * {
+    border: none !important;
+}
+div.table-wrap table.wrapped.relative-table.confluenceTable {
+    margin: 5px !important;
+}
+.linksbox span:hover,
+.confluencecontent > .confluencecontent:hover,
+.confluencecontent > .confluencecontent:nth-child(2n + 1):hover {
+    color: #fff;
+    background-color: transparent;
+    background: rgba(255, 255, 255, 0.30);
+    border: none;
+    box-shadow: inset 0px 0px 1px 1px #000000, 0px 0px 1px 1px #414040;
+    text-decoration: none;
+}
+#navigationcontainer a:hover,
+.jsPanel a:hover {
+    text-decoration: unset !important;
+}
+.jsPanel-content *:not(input) {
+    color: white;
+}
+.jsPanel-content br {
+    display: none;
+}
+.jsPanel-content table.confluencecontent td > *:not(ol):not(ul):not(hr) {
+    border: 1px solid white;
+    margin: 5px;
+    width: -webkit-fill-available;
+    overflow: hidden;
+    padding: 5px;
+}
+p:empty {
+    display: none !important;
+}
+.jsPanel-content p {
+    display: inline;
+}
+table.confluencecontent ul, table.confluencecontent ol {
+    display: inline-block;
+    list-style: inside square;
+    padding: 5px !IMPORTANT;
+}
+.jsPanel-content table.confluencecontent td h3 ~*:not(ol):not(ul):not(hr) {
+    padding: 0px 5px 0px 5px;
+    margin: 5px;
+    font-variant: all-petite-caps;
+    display: list-item;
+    LIST-STYLE: inside circle;
+    font-size: 16px;
+}
+.jsPanel-content table.confluencecontent td h3 ~ hr {
+    display: none !important;
+}
+.jsPanel-content table.confluencecontent td h3 ~*:not(ol)
+#navigationcontainer hr {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.jsPanel-content p.auto-cursor-target {
+    display: none !important;
+}
+span.confluence-embedded-file-wrapper {
+    display: table;
+}
+.jsPanel-content table.confluencecontent td {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+tr.notheadings td > :not(ol):not(ul):not(hr):not(.table-wrap):not(table) {
+    display: list-item;
+    list-style: inside circle;
+}
+tr.notheadings td > ol, tr.notheadings td > ul {
+    border: 1px solid white;
+    margin: 5px;
+    width: -webkit-fill-available;
+}
+div.expand-container >:last-child, div.expand-container >:first-child, div.expand-container {
+    display: inline;
+}
+.jsPanel-content img.confluence-embedded-image {
+    width: inherit !important;
+    display: flex;
+    height: auto;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+table.confluencecontent th {
+    border: 1px solid black;
+    padding-bottom: 0px !important;
+    padding: 1px !important;
+    border-style: none;
+}
+table.confluencecontent h3.confluencedocheaders *, table.confluencecontent h3.confluencedocheaders {
+    color: black;
+}
+.jsPanel-content table.confluencecontent td * {
+    color: white !important;
+}
+
+div.table-wrap table.confluenceTable td.confluenceTd:first-child > * {
+    margin-left: auto;
+    margin-right: auto;
+}
+table.confluencecontent li {
+    padding: 0;
+}
+.jsPanel-content table.wrapped th {
+    text-align: center !important;
+}
+.jsPanel-content #issuetable tr {
+    background-color: transparent;
+}
+.jsPanel-content table.wrapped th,
+.mytables tr th,
+.jsPanel-content #issuetable tr th {
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: 1px solid !important;
+}
+.jsPanel-content table.wrapped * {
+    color: white !important;
+}
+.jsPanel-content table.wrapped,
+.mytables,
+.jsPanel-content #issuetable {
+    width: -webkit-fill-available !important;
+    background: inherit;
+    border: 1px solid white;
+    color: white;
+    font-size: inherit;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 5px;
+}
+.mytables th,
+.jsPanel-content #issuetable th {
+    text-align: center;
+}
